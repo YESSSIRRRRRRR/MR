@@ -20,7 +20,7 @@ Must specify at least 'keywords' or 'categories'. If both are specified, results
 
   opts.on '-t', '--token [TOKEN]', String, 'Required: Discord bot token'
   opts.on '-c', '--categories [CATEGORY]', Array, 'Comma separated list of category IDs on Mercari (ie: /jp/category/703/ -> 703)'
-  opts.on '-k', '--keywords [KEYWORD]', Array, 'Comma separated list of keywords to search for items'
+  opts.on '-k', '--keywords [cartier]', Array, 'Comma separated list of keywords to search for items'
   opts.on '-f', '--file [FILE]', String, "(Optional) set sqlite file (default: #{options[:file]})"
 end
 
